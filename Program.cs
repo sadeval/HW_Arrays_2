@@ -9,7 +9,7 @@ namespace HW_Arrays
             Console.Write("Введите размер куба (n): ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            // Размер куба m x n x n
+            // Размер куба n x n x n
             int[,,] cube = new int[n, n, n];
 
             // Центр и радиус сферы
